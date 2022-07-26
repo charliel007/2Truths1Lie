@@ -1,0 +1,31 @@
+.factoid {
+    background-color:blanchedalmond;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    padding: 0 2em 0 2em; /* T R B L , top right bottom left */
+    border-radius: 20px;
+    margin: 5rem;
+    display:inline-block;
+}
+
+
+/*
+.true {
+    background-color: green;
+}   
+*/
+
+.container {
+    display: inline-block;
+    text-align: left;
+    width: 40em;
+    background-color: rgb(86, 86, 86);
+}
+
+.true:hover {background-color: green;
+}
+
+.false:hover {background-color: red;
+}
+
+.answer {color: blanchedalmond;
+}
